@@ -1,0 +1,41 @@
+{
+	// The path to the `bun` executable.
+	// "bun.runtime": "/path/to/bun",
+	// If support for Bun should be added to the default "JavaScript Debug Terminal".
+	"bun.debugTerminal.enabled": true,
+	// If the debugger should stop on the first line of the program.
+	"bun.debugTerminal.stopOnEntry": false,
+
+	"editor.tabSize": 2,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"files.eol": "\n",
+
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[yaml]": {
+		"editor.defaultFormatter": "dprint.dprint"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "dprint.dprint"
+	}
+}

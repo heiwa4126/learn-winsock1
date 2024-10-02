@@ -1,11 +1,17 @@
 {
-  "name": "websock1-server",
-  "module": "index.ts",
-  "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  }
+	"name": "websock1-server",
+	"module": "index.ts",
+	"type": "module",
+	"scripts": {
+		"start": "bun run index.ts",
+		"format": "biome format . --write && dprint fmt",
+		"check": "biome check . --write && dprint check"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": { "express": "^4.21.0", "ws": "^8.18.0" }
 }
