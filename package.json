@@ -1,0 +1,6 @@
+{
+	"scripts": {
+		"format": "biome format . --write && dprint fmt",
+		"check": "biome check . --write && dprint check"
+	}
+}
